@@ -9,9 +9,9 @@ function App() {
   return (
     <div className='App'>
       <h2>Jogo da Forca</h2>
+      <Keyboard />
       <HangmanDrawing />
       <HangmanWord />
-      <Keyboard />
 
     </div>
   )
